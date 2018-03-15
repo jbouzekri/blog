@@ -1,0 +1,16 @@
+<a class="mailto" href="mailto:?subject=I want you to see this article {{page.title}}&body={{page.title}} by {{ site.author }} - {{ site.url }}{{ page.url }}" title="Share by Email">
+  <i class="fa fa-envelope-open-o"></i> Mail
+</a>
+<a class="twitter" href="https://twitter.com/intent/tweet?text={{page.title}} by @{{ site.twitter_username }} - {{ site.url }}{{ page.url }}" title="Share by Twitter">
+  <span class="icon-twitter"> Tweet</span>
+</a>
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;" title="Share by facebook"><span class="icon-facebook-rect"> Share</span>
+</a>
+<a class="googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share by Google Plus">
+<i class="fa fa-google"></i> Google+
+</a>

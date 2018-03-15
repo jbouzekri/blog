@@ -1,0 +1,15 @@
+<div class="profile">
+    <header id="header">
+        <a href="{{ site.baseurl }}" title="Home">
+            <img id="avatar" src="{{ "/assets/img/avatar.png" | relative_url }}" alt="Jonathan Bouzekri Avatar" />
+        </a>
+        <h1>{{ site.author }}</h1>
+        <ul class="social list-inline">
+            <li><a href="{{ site.perso_url }}" title="Resume"><i class="fa fa-user"></i></a></li>
+            <li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}" title="Google Plus"><i class="fa fa-google"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" title="Github"><i class="fa fa-github-alt"></i></a></li>
+        </ul>
+    </header>
+</div>

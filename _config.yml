@@ -1,0 +1,53 @@
+# Site settings
+title: "Jonathan Bouzekri's blog"
+email: "jonathan.bouzekri@gmail.com"
+author: Jonathan Bouzekri
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "/"
+url: "https://blog.bouzekri.net"
+
+perso_url: "https://jonathan.bouzekri.net"
+
+twitter_username: jobou78
+github_username: jbouzekri
+googleplus_username: "+JonathanBouzekri"
+linkedin_username: "jonathan-bouzekri"
+
+google_analytics: "UA-42442150-2"
+google_site: "HH0GYzmiVXW67F5MjuBrs8ruQUTm6bXRY0PdZEdbGM0"
+
+disqus:
+  shortname: jobou
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+sass:
+    style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+#exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

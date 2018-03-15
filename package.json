@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Jonathan Bouzekri's Blog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbouzekri/blog.git"
+  },
+  "author": "Jonathan Bouzekri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbouzekri/blog/issues"
+  },
+  "homepage": "https://github.com/jbouzekri/blog#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}

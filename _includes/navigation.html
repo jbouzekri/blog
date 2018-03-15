@@ -1,0 +1,10 @@
+<section id="navigation">
+    <nav class="main-nav" id="homelink">
+        {% if page.url != "/index.html" and page.url != "/" %}
+            <a class="stickem" href="{{ site.baseurl }}">
+                <span class="arrow">←</span>
+                Home
+            </a>
+        {% endif %}
+    </nav>
+</section>

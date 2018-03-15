@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{%- if site.posts.size > 0 -%}
+<ul id="post-list">
+  {%- for post in site.posts -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%d %B %Y" -%}
+    <a href="{{ post.url | relative_url }}"><aside class="dates">{{ post.date | date: date_format }}</aside></a>
+    <a href="{{ post.url | relative_url}}">{{ post.title | escape }} <h2>{{ post.description | escape }}</h2></a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

@@ -1,0 +1,8 @@
+$fa-font-path:        "./fonts";
+
+@import
+  "cacti/base",
+  "cacti/override",
+  "cacti/_syntax",
+  "../node_modules/font-awesome/scss/font-awesome"
+;

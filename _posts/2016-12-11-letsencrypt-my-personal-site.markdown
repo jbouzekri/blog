@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's Encrypt my personal site and my blog
+title: "Let's Encrypt my personal site and my blog"
 description: A quickstart on using let's encrypt to add a free SSL certificate to your websites
 date: 2016-12-11
 tags:
@@ -9,7 +9,8 @@ tags:
     - apache
 ---
 
-## Introduction
+
+## Introduction
 
 For the past few months, I have followed the rise of [Let's Encrypt](https://letsencrypt.org/) but I could not find the time to add it to my website. Big mistake !!!! Yesterday, I finally did it and it took me just under 10 minutes to have it up and running. I must say that I was impressed with the tools provided by this service.
 

@@ -8,6 +8,7 @@ tags:
     - python
 ---
 
+
 ## Introduction
 
 A few days ago, I was walking through the code base of the [Flask](http://flask.pocoo.org/) Python microframework and I stumbled upon a `__main__.py` file inside the `flask` module.

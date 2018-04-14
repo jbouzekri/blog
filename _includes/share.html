@@ -1,7 +1,9 @@
-<a class="mailto" href="mailto:?subject=I want you to see this article {{page.title}}&body={{page.title}} by {{ site.author }} - {{ site.url }}{{ page.url }}" title="Share by Email">
+{% assign mailto_url = 'mailto:?subject=I want you to see this article ' | append: page.title | append: '&body=' | append: page.title | append: ' by ' | append: site.author | append: ' - ' | append: site.url | append: page.url %}
+<a class="mailto" href="{{ mailto_url | uri_escape }}" title="Share by Email">
   <i class="fa fa-envelope-open-o"></i> Mail
 </a>
-<a class="twitter" href="https://twitter.com/intent/tweet?text={{page.title}} by @{{ site.twitter_username }} - {{ site.url }}{{ page.url }}" title="Share by Twitter">
+{% assign twitter_url = 'https://twitter.com/intent/tweet?text=' | append: page.title | append: ' by @' | append: site.twitter_username | append: ' - ' | append: site.url | append: page.url %}
+<a class="twitter" href="{{ twitter_url | uri_escape }}" title="Share by Twitter">
   <span class="icon-twitter"> Tweet</span>
 </a>
 <a class="facebook" href="#" onclick="

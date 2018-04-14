@@ -28,8 +28,6 @@ permalink: /:year-:month-:day-:title:output_ext
 
 pagination:
   enabled: true
-  per_page: 10
-  permalink: '/page:num.html'
 
 markdown: kramdown
 highlighter: rouge

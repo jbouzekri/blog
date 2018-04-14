@@ -5,4 +5,8 @@
 layout: home
 pagination:
     enabled: true
+    per_page: 10
+    permalink: '/page:num.html'
+    sort_field: 'date'
+    sort_reverse: true
 ---

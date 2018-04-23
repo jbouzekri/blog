@@ -2,19 +2,19 @@
 
 A repository to host my blog built with Jekyll.
 
-## Installation
+## Installation
 
 ```shell
 npm install
 ```
 
-## Development
+## Development
 
 ```shell
 docker run --rm -p 4000:4000 -p 35729:35729 --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll serve
 ```
 
-## Deployment
+## Deployment
 
 ```shell
 rm -rf _site
